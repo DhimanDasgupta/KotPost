@@ -34,8 +34,6 @@ class PostsAdapter(var posts : List<Post> = ArrayList<Post>(),
     override fun getItemCount(): Int {
         return posts.size
     }
-
-
 }
 
 
